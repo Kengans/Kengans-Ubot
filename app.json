@@ -1,7 +1,7 @@
 {
   "name": "Kayzu-Ubot",
   "description": "KAYZU-UBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
-  "logo": "https://telegra.ph/file/a7a491a03d38756146ff0.jpg",
+  "logo": "https://telegra.ph/file/3f1d8033b7167b4ffeb28.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -9,7 +9,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/Kayzyu/Kayzu-Ubot/Kayzu-Ubot",
+  "repository": "https://github.com/Kengans/Kengans-Ubot/Kengans-Ubot",
   "telegram": "https://t.me/Kayzuuuuu",
   "success_url": "https://t.me/KayzuSupport",
   "stack": "container",
