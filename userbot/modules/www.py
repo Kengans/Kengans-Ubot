@@ -83,8 +83,8 @@ async def redis(pong):
     duration = (end - start).microseconds / 1000
     await pong.edit(
         f"**{ALIVE_NAME}**        \n"
-        f"**➾Kecepatan : ** '%sms'  \n"
-        f"**➾Branch : ** 'Kayzu-Ubot` \n" % (duration)
+        f"**⚡Kecepatan : ** '%sms'  \n"
+        f"**☂️Branch : ** 'Kengans-Ubot` \n" % (duration)
     )
 
 
@@ -97,10 +97,10 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(
-        f"**`{ALIVE_NAME}`**\n"
-        f"✧ **-ꜱɪɢɴᴀʟ- :** "
+        f"**`𝘒𝘦𝘦𝘯𝘢𝘯`**\n"
+        f"⚡ **-ꜱɪɢɴᴀʟ- :** "
         f"`%sms` \n"
-        f"✧ **-ᴜᴘᴛɪᴍᴇ- :** "
+        f"✨ **-ᴜᴘᴛɪᴍᴇ- :** "
         f"`{uptime}` \n" % (duration)
     )
 
@@ -122,7 +122,7 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(
-        f"**⚡ᴋᴀʏᴢᴜ-ᴜʙᴏᴛ⚡**\n"
+        f"**⚡𝐊𝐄𝐍-𝐔𝐁𝐎𝐓⚡**\n"
         f"➾ __Signal__    __:__ "
         f"`%sms` \n"
         f"➾ __Uptime__ __:__ "
@@ -146,12 +146,12 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(
-        f"**⚡ ᴋᴀʏᴢᴜ-ᴜʙᴏᴛ  ⚡**\n\n"
+        f"**⚡ 𝐊𝐄𝐍-𝐔𝐁𝐎𝐓  ⚡**\n\n"
         f"** ▹  ꜱɪɢɴᴀʟ   :** "
         f"`%sms` \n"
         f"** ▹  ᴜᴘᴛɪᴍᴇ  :** "
         f"`{uptime}` \n"
-        f"** ▹  ᴏᴡɴᴇʀ   :** `{ALIVE_NAME}` \n" % (duration)
+        f"** ▹  ᴏᴡɴᴇʀ   :** 𝘒𝘦𝘦𝘯𝘢𝘯 \n" % (duration)
     )
 
 
@@ -173,7 +173,7 @@ async def pingme(pong):
         f"`%sms` \n"
         f"⏱️ **ᴜᴘᴛɪᴍᴇ :** "
         f"`{uptime}` \n"
-        f"✠➲ **ᴏᴡɴᴇʀ :** `{ALIVE_NAME}`" % (duration)
+        f"✠➲ **ᴏᴡɴᴇʀ :** 𝘒𝘦𝘦𝘯𝘢𝘯" % (duration)
     )
 
 
@@ -202,7 +202,7 @@ async def speedtst(spd):
         f"`{result['ping']}` \n"
         "✧ **ISP:** "
         f"`{result['client']['isp']}` \n"
-        "✧ **BOT:** ⚡ᴋᴀʏᴢᴜ-ᴜʙᴏᴛ⚡"
+        "✧ **BOT:** ⚡𝐊𝐄𝐍-𝐔𝐁𝐎𝐓⚡"
     )
 
 
