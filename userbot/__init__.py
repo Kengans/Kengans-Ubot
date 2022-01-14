@@ -122,9 +122,9 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/Kayzyu/Kayzu-Ubot")
+    "https://github.com/Kengans/Kengans-Ubot")
 UPSTREAM_REPO_BRANCH = os.environ.get(
-    "UPSTREAM_REPO_BRANCH", "Kayzu-Ubot")
+    "UPSTREAM_REPO_BRANCH", "Kengans-Ubot")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -218,7 +218,7 @@ BITLY_TOKEN = os.environ.get(
     "BITLY_TOKEN") or "o_1fpd9299vp"
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "Kayzu-Ubot")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "Kengans-Ubot")
 
 # Bot Version
 BOT_VER = os.environ.get("BOT_VER", "7.0")
@@ -231,7 +231,7 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/a7a491a03d38756146ff0.jpg"
+    "ALIVE_LOGO") or "https://telegra.ph/file/3f1d8033b7167b4ffeb28.jpg"
 
 # Default .helpme Logo
 INLINE_PIC = os.environ.get(
@@ -504,7 +504,7 @@ with bot:
                     buttons=[
                         [
                             Button.url("ʀᴇᴘᴏ​",
-                                       "https://github.com/Kayzyu/Kayzu-Ubot")],
+                                       "https://github.com/Kengans/Kengans-Ubot")],
                     ]
                 )
 
@@ -849,7 +849,7 @@ with bot:
                     f" ✠➲ **ʙᴏᴛ ᴏꜰ :** {ALIVE_NAME}  "
                     "\n╚════════════════════╝"
                     f"✥ **Sisa Dyno Heroku** `{day}` **Hari Lagi**"
-                    f"© @Kayzuuuuu"
+                    f"© @senseikeenan"
                 )
                 await event.edit(
                     text,
@@ -929,8 +929,8 @@ with bot:
                     link_preview=True)
             else:
                 result = builder.article(
-                    " ⚡ᴋᴀʏᴢᴜ-ᴜʙᴏᴛ⚡",
-                    text="""°Kayzu-Ubot°""",
+                    " ⚡ᴋᴇɴɢᴀɴs-ᴜʙᴏᴛ⚡",
+                    text="""°Kengans-Ubot°""",
                     buttons=[
                         [
                             custom.Button.url(
