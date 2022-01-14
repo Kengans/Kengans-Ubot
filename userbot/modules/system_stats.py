@@ -173,8 +173,8 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**⚜-**⚡Kayzu-Ubot⚡ Versi:** \n "
-            f"heads/Kayzu-Ubot-0-x634i7u1"
+            "**⚜-**⚡𝐊𝐄𝐍-𝐔𝐁𝐎𝐓⚡ Versi:** \n "
+            f"heads/Kengans-Ubot-0-x634i7u1"
             "\n**⚜-**Revisi:**\n "
             f"{revout}"
         )
@@ -315,7 +315,7 @@ async def redis(alive):
     await alive.edit("🔥")
     await asyncio.sleep(2)
     output = (
-        f"┏━━━━ ⚡ᴋᴀʏᴢᴜ-ᴜʙᴏᴛ⚡ ━━ \n"
+        f"┏━━━━ ⚡𝐊𝐄𝐍-𝐔𝐁𝐎𝐓⚡ ━━ \n"
         f"┣  `Name     :` {DEFAULTUSER} \n"
         f"┣  `Username :` @{user.username} \n"
         f"┣  `Telethon :` Ver {version.__version__} \n"
@@ -323,9 +323,9 @@ async def redis(alive):
         f"┣  `Branch   :` {UPSTREAM_REPO_BRANCH} \n"
         f"┣  `Bot Ver  :` {BOT_VER} \n"
         f"┣  `Modules  :` {len(modules)} Modules \n"
-        f"┣  `GitHub   :` [Kayzu](https://github.com/Kayzyu/Kayzu-Ubot) \n"
+        f"┣  `GitHub   :` [Keenan](https://github.com/Kengans/Kengans-Ubot) \n"
         f"┣  `Support  :` [Groups](t.me/KayzuSupport) \n"
-        f"┣  `Owner    :` [Kayzu](https://t.me/Kayzuuuuu) \n"
+        f"┣  `Owner    :` [Keenan](https://t.me/senseikeenan) \n"
         f"┗━━━━━━━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
         try:
