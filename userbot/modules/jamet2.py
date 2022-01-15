@@ -55,29 +55,21 @@ async def typewriter(typew):
 # Create by myself @localheart
 
 
-@register(outgoing=True, pattern='^.ngatain(?: |$)(.*)')
+@register(outgoing=True, pattern='^.sensei(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit("**BABI!!**")
+    await typew.edit("**DAR DER DOR**")
     sleep(1)
-    await typew.edit("**MUKA LU KAYA BABI**")
+    await typew.edit("**sensei asik nih boss**")
     sleep(1)
-    await typew.edit("**OTAK LU TUH KAYA UDANG**")
+    await typew.edit("**minta di gedor**")
     sleep(1)
-    await typew.edit("**MUKA LU HINA BANGET**")
+    await typew.edit("**apa bapak lu aja sini gua gedor**")
     sleep(1)
-    await typew.edit("**OTAK LU KAYA BATU**")
+    await typew.edit("**udah apa sensei op**")
     sleep(1)
-    await typew.edit("**HAHAHAHA**")
-    sleep(1)
-    await typew.edit("**MAKANYA JANGAN SANGEAN MULU**")
-    sleep(1)
-    await typew.edit("**MUKA LU AJA MASIH DEKIL**")
-    sleep(1)
-    await typew.edit("**EHHH SANGE NYA MAU DAPAT YANG CANTIK**")
-    sleep(1)
-    await typew.edit("**HAHAHAHA**")
+    await typew.edit("**yahah wahyoe slemek**")
 # Create by myself @localheart
 
 
